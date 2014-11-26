@@ -1,2 +1,2 @@
-1416966102
-a:3:{i:0;b:0;s:4:"name";a:8:{s:32:"bfd91b8411437eb2b2e79c5f89466b51";s:9:"`project`";s:32:"10740a0595a1a3e87ac91af74c4ce9ab";s:7:"`books`";s:32:"d20cc9bac7c7be183dd3b2885c9e57c7";s:11:"`Book`.`id`";s:32:"0a451520f87a51d811c6144736c94aab";s:13:"`Book`.`isbn`";s:32:"dc4169abfb1a600a9946b90dbf70065a";s:14:"`Book`.`title`";s:32:"f33f8f41276361ecdf481893a6aee043";s:20:"`Book`.`description`";s:32:"4d9ec8fd08f114f72ad6b679f59b73ed";s:6:"`Book`";s:32:"47eb7bb09414c64f779510914712b6ee";s:7:"`count`";}s:6:"fields";a:2:{s:32:"2e464d41f70e327205d4e42c04fa89a8";a:4:{i:0;s:11:"`Book`.`id`";i:1;s:13:"`Book`.`isbn`";i:2;s:14:"`Book`.`title`";i:3;s:20:"`Book`.`description`";}s:32:"2645783e7d2b236028c004123073dcc7";a:1:{i:0;s:19:"COUNT(*) AS `count`";}}}
+1416993536
+a:2:{i:0;b:0;s:4:"name";a:1:{s:32:"bfd91b8411437eb2b2e79c5f89466b51";s:9:"`project`";}}
