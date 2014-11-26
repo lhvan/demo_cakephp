@@ -1,0 +1,365 @@
+2014-11-25 04:03:53 Error: [MissingControllerException] Controller class RelaxsController could not be found.
+Exception Attributes: array (
+  'class' => 'RelaxsController',
+  'plugin' => NULL,
+)
+Request URL: /relaxs/playgame/12
+Stack Trace:
+#0 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 04:04:46 Error: [MissingActionException] Action RelaxsController::playgame() could not be found.
+Exception Attributes: array (
+  'controller' => 'RelaxsController',
+  'action' => 'playgame',
+)
+Request URL: /relaxs/playgame/12
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RelaxsController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 04:04:47 Error: [MissingActionException] Action RelaxsController::playgame() could not be found.
+Exception Attributes: array (
+  'controller' => 'RelaxsController',
+  'action' => 'playgame',
+)
+Request URL: /relaxs/playgame/12
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RelaxsController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 04:27:20 Error: [MissingActionException] Action PostsController::index.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index.php',
+)
+Request URL: /posts/index.php
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 04:28:20 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /posts/view/1
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 04:28:25 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /posts/view/2
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 04:58:59 Error: [MissingControllerException] Controller class DemoCakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'DemoCakephpController',
+  'plugin' => NULL,
+)
+Request URL: /demo_cakephp/index.php
+Stack Trace:
+#0 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 04:59:22 Error: [MissingControllerException] Controller class DemoCakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'DemoCakephpController',
+  'plugin' => NULL,
+)
+Request URL: /demo_cakephp/index.php?XDEBUG_SESSION_START=netbeans-xdebug
+Stack Trace:
+#0 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 06:29:02 Error: [MissingControllerException] Controller class BooksController could not be found.
+Exception Attributes: array (
+  'class' => 'BooksController',
+  'plugin' => NULL,
+)
+Request URL: /books/view01
+Stack Trace:
+#0 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 06:29:45 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /books/books/view/1
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 06:46:32 Error: Fatal Error (1): Call to undefined function find() in [/var/www/demo_cakephp/app/Controller/BooksController.php, line 54]
+2014-11-25 06:46:32 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /books/view02
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/demo_c...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/demo_c...', 54, Array)
+#2 /var/www/demo_cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/demo_c...', 54, Array)
+#3 /var/www/demo_cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 06:48:34 Error: Fatal Error (1): Call to undefined function find() in [/var/www/demo_cakephp/app/Controller/BooksController.php, line 53]
+2014-11-25 06:48:34 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /books/view02
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/demo_c...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/demo_c...', 53, Array)
+#2 /var/www/demo_cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/demo_c...', 53, Array)
+#3 /var/www/demo_cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 06:48:55 Error: Fatal Error (1): Call to undefined function find() in [/var/www/demo_cakephp/app/Controller/BooksController.php, line 53]
+2014-11-25 06:48:55 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /books/view02
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/demo_c...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/demo_c...', 53, Array)
+#2 /var/www/demo_cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/demo_c...', 53, Array)
+#3 /var/www/demo_cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 06:48:56 Error: Fatal Error (1): Call to undefined function find() in [/var/www/demo_cakephp/app/Controller/BooksController.php, line 53]
+2014-11-25 06:48:56 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /books/view02
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/demo_c...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/demo_c...', 53, Array)
+#2 /var/www/demo_cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/demo_c...', 53, Array)
+#3 /var/www/demo_cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 06:48:57 Error: Fatal Error (1): Call to undefined function find() in [/var/www/demo_cakephp/app/Controller/BooksController.php, line 53]
+2014-11-25 06:48:57 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /books/view02
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/demo_c...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/demo_c...', 53, Array)
+#2 /var/www/demo_cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/demo_c...', 53, Array)
+#3 /var/www/demo_cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 07:00:07 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'project.book' doesn't exist
+Request URL: /books/view02
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/demo_cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT * FROM b...', Array)
+#2 /var/www/demo_cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT * FROM b...', Array, Array)
+#3 /var/www/demo_cakephp/lib/Cake/Model/Datasource/DboSource.php(537): DboSource->fetchAll('SELECT * FROM b...')
+#4 [internal function]: DboSource->query('SELECT * FROM b...')
+#5 /var/www/demo_cakephp/lib/Cake/Model/Model.php(3370): call_user_func_array(Array, Array)
+#6 /var/www/demo_cakephp/app/Controller/BooksController.php(58): Model->query('SELECT * FROM b...')
+#7 [internal function]: BooksController->view02()
+#8 /var/www/demo_cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#9 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#11 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-25 07:34:59 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /books/view/28
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 07:35:11 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /books/view/5
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 07:35:13 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /books/view/6
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 07:35:14 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /books/view/4
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 07:35:16 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /books/view/28
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 07:35:17 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /books/view/5
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 07:35:19 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /books/view/5
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 07:35:20 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /books/view/6
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 07:35:22 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /books/view/4
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 07:35:23 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /books/view/6
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 07:43:59 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'incesc  LIMIT 4' at line 1
+Request URL: /books/paging/
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/demo_cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/demo_cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/demo_cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/demo_cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Book), Array)
+#5 /var/www/demo_cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /var/www/demo_cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/demo_cakephp/lib/Cake/Controller/Controller.php(1080): PaginatorComponent->paginate('Book', Array, Array)
+#8 /var/www/demo_cakephp/app/Controller/BooksController.php(79): Controller->paginate('Book')
+#9 [internal function]: BooksController->paging()
+#10 /var/www/demo_cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#11 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#13 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-11-25 07:55:06 Error: [MissingViewException] View file "/var/www/demo_cakephp/app/View/Books/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/demo_cakephp/app/View/Books/view.ctp',
+)
+Request URL: /books/view/1
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/demo_cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-25 08:43:48 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /books/books/view/1
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 08:52:22 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /books/books/view/1
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-25 09:14:59 Error: [MissingHelperException] Helper class CommonHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CommonHelper',
+  'plugin' => false,
+)
+Request URL: /books/paging
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/View/View.php(886): HelperCollection->load('Common', Array)
+#1 /var/www/demo_cakephp/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /var/www/demo_cakephp/lib/Cake/Controller/Controller.php(1241): View->__construct(Object(BooksController))
+#3 /var/www/demo_cakephp/lib/Cake/Controller/Controller.php(940): Controller->_getViewObject()
+#4 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#5 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#6 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-11-25 11:13:40 Error: [MissingControllerException] Controller class DemoCakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'DemoCakephpController',
+  'plugin' => NULL,
+)
+Request URL: /demo_cakephp/
+Stack Trace:
+#0 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-26 01:40:47 Error: [MissingActionException] Action AppController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'books',
+)
+Request URL: /app/books/paging/
+Stack Trace:
+#0 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/demo_cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /var/www/demo_cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
