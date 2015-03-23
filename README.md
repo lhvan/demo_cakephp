@@ -8,3 +8,8 @@
 $ Console/cake shop_import             # GET /shops/all , this json for agency
 $ Console/cake shop_kit_import         # GET /shop_kits/all , this json for kitcheneys
 ```
+- [ ] a task list item
+- [ ] list syntax required
+- [ ] normal **formatting**, @mentions, #1234 refs
+- [ ] incomplete
+- [x] completed
