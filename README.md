@@ -1,15 +1,26 @@
-## Usage
-```
-# Put the data files follow path:
-- app/tmp/import/import.csv            # For agency list data
-- app/tmp/import/shopkit_import.csv    # For kitcheneye list data
+# store manage
 
-# To generate the json files, run:
-$ Console/cake shop_import             # GET /shops/all , this json for agency
-$ Console/cake shop_kit_import         # GET /shop_kits/all , this json for kitcheneys
+## Installation
+Add this line to your application's Gemfile:
 ```
-- [ ] a task list item
-- [ ] list syntax required
-- [ ] normal **formatting**, @mentions, #1234 refs
-- [ ] incomplete
-- [x] completed
+gem 'store_manager', :git => 'git@github.com:[account]/store_manager.git'
+```
+And then execute:
+```
+$ bundle
+```
+Next, we’ll generate, running migrations and seed data: 
+```
+$ rails g store_manager
+$ rake db:migrate
+$ rake db:seed
+```
+
+## Usage
+A Rubygem plugin that allows you import csv file store list. And then generate latitude, longitude using the Google Geocoding API from the address information.
+The record auto save, you can get data from database. this plugin also render keep data as json format, it's really useful for search functionality is implemented in the js.
+
+Url for import csv file:
+```
+/shops
+```
