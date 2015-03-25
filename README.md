@@ -3,17 +3,16 @@
 ## Installation
 Add this line to your application's Gemfile:
 ```
-gem 'store_manager', :git => 'git@github.com:[account]/store_manager.git'
+gem 'store_manager', :git => 'git@github.com:lhvan/store_manager.git'
 ```
 And then execute:
 ```
 $ bundle
 ```
-Next, we’ll generate, running migrations and seed data: 
+Next, we’ll generate and running migrations: 
 ```
 $ rails g store_manager
 $ rake db:migrate
-$ rake db:seed
 ```
 
 ## Usage
