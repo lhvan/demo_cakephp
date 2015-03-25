@@ -19,7 +19,7 @@ $ rake db:migrate
 A Rubygem plugin that allows you import csv file store list. And then generate latitude, longitude using the Google Geocoding API from the address information.
 The records auto save, you can get data from database. This plugin also render keep data as json format, it's really useful for search functionality is implemented in the js.
 
-Url for import csv file:
+The path for import csv file:
 ```
 /shops
 ```
